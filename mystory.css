@@ -153,6 +153,9 @@ h2 {
 
 /* Play button wrapper */
 .bts-video-preview {
+    position: relative;
+    left: 87px; /* moves the button right without touching the text */
+    flex: none;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -189,6 +192,7 @@ h2 {
 
 /* Right side content */
 .bts-content {
+    flex: none;
     text-align: left;
     color: var(--white);
 }

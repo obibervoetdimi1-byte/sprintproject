@@ -15,10 +15,13 @@
 
 body {
     background-image: url(png/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     margin: 0;
-    /* Removes default browser margin */
+    min-height: 100vh;
 }
-
 /* ==========================================
    HEADER SECTION
    ========================================== */

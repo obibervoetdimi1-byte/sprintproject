@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Space+Grotesk:wght@300..700&display=swap');
+
 body {
     background-image: url('png/background.png');
     background-repeat: repeat;
@@ -49,6 +55,8 @@ body {
 
 .storytext {
     /* This is for the text in the section box */
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 400;
     color: var(--text-dark);
     text-align: justify;
     font-size: 1.1rem;
@@ -66,6 +74,7 @@ body {
 /* Temporary Button CSS*/
 .btn {
     display: inline-block;
+    font-family: 'Plus Jakarta Sans', sans-serif;
     background-color: #0025f9;
     /* Background color button*/
     color: white;
@@ -81,6 +90,7 @@ body {
 /* Dotted box for Why La Pony section */
 .why-la-pony {
     background-color: var(--white);
+    font-family: 'Plus Jakarta Sans', sans-serif;
     border: 2px dashed var(--primary-blue);
     border-radius: 16px;
     max-width: 750px;
@@ -91,6 +101,7 @@ body {
 }
 
 .why-la-pony h2 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
     font-family: 'Caveat', cursive;
     color: var(--primary-blue);
     font-size: 36px;
@@ -187,7 +198,7 @@ h2 {
 }
 
 .bts-title {
-    font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
     color: #fdf8f2;
     font-size: 34px;
     font-weight: 800;

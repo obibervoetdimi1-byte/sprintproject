@@ -1,0 +1,93 @@
+:root {
+    --primary-blue: #2d55e6;
+    --text-dark: #2b2b52;
+    --white: #ffffff;
+    --bg-cream: #fdf8f2;
+}
+
+body {
+    background-color: var(--bg-cream);
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* Polopriehľadné biele pozadie pre sekciu Contact */
+.contact {
+    background-color: rgba(255, 255, 255, 0.85);
+    /* 85% nepriehľadnosť */
+    backdrop-filter: blur(10px);
+    /* jemné rozostrenie pozadia za kartou */
+    -webkit-backdrop-filter: blur(10px);
+
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+
+    text-align: center;
+    padding: 40px 30px;
+    max-width: 800px;
+    margin: 50px auto;
+    box-sizing: border-box;
+}
+
+.contact h1 {
+    font-size: 2.2rem;
+    color: var(--primary-blue);
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.contact h2 {
+    font-size: 1.3rem;
+    letter-spacing: 0.5px;
+    color: var(--text-dark);
+    margin-top: 30px;
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+
+.contact p {
+    color: var(--text-dark);
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 6px 0;
+}
+
+/* Google Maps Styling */
+.map {
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.map iframe {
+    width: 100%;
+    max-width: 700px;
+    height: 350px;
+    border-radius: 12px;
+    border: none;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Social Icons */
+.socials {
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.icons {
+    width: 54px;
+    height: 54px;
+    padding: 0;
+    border-radius: 50%;
+    box-shadow: 0 4px 12px rgba(42, 51, 87, 0.15);
+    transition: transform 0.2s ease;
+    object-fit: cover;
+}
+
+.icons:hover {
+    transform: translateY(-4px);
+}

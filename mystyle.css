@@ -1,0 +1,511 @@
+/* HEADER */
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Space+Grotesk:wght@300..700&display=swap');
+
+:root {
+    --bg-cream: #fdf8f2;
+    --text-dark: #2b2b52;
+    --primary-blue: #3353e2;
+    --blue-hover: #243ec4;
+    --white: #ffffff;
+    --pink: #E1A6C2;
+}
+
+body {
+    background-image: url(png/background.png);
+    margin: 0;
+
+}
+
+/* HEADER */
+.logo {
+    width: 100px;
+    height: 60px;
+}
+
+.h1 {
+    line-height: normal;
+    margin: 0;
+    font-family: 'Caveat', cursive;
+    font-size: 38px;
+    text-align: center;
+    color: var(--primary-blue);
+}
+
+
+.logo-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    white-space: nowrap;
+}
+
+.header {
+    width: 100%;
+    min-height: 110px;
+    padding: 20px 40px;
+    background-color: var(--bg-cream);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+
+}
+
+.nav-menu {
+    display: flex;
+    gap: 30px;
+    /* Space between MENU, MY STORY, and CONTACT ME links */
+    order: 1;
+}
+
+/* text for header menu  */
+.plus-jakarta {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: var(--text-dark);
+    font-size: 18px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 500;
+
+}
+
+.menu {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 1px solid var(--primary-blue);
+    background-color: #3353e2;
+    border-radius: 25px;
+    padding: 10px;
+    color: var(--bg-cream);
+}
+
+.order {
+    order: 3;
+    padding-right: 40px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+
+}
+
+/* text for header title  la pony bakery */
+.caveat {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+/* BANNER SECTION*/
+
+
+.banner {
+    background-color: var(--bg-cream, #fdf8f2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 40px;
+    border-radius: 15px;
+    max-width: 900px;
+    margin: 25px auto;
+    box-sizing: border-box;
+}
+
+.text2 {
+    color: var(--primary-blue);
+
+}
+
+.h-word {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-weight: 800;
+    color: var(--primary-blue);
+}
+
+.content {
+    flex: 1;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.btn-primary {
+    background-color: var(--primary-blue, #3353e2);
+    color: var(--white, #ffffff);
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 600;
+}
+
+.btn-secondary {
+    color: var(--primary-blue, #3353e2);
+    border: 2px solid var(--primary-blue, #3353e2);
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 600;
+}
+
+.hero-media {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.image-wrapper {
+    width: 100%;
+    max-width: 320px;
+}
+
+.hero-img {
+    width: 100%;
+    border-radius: 180px 180px 15px 15px;
+    display: block;
+    object-fit: cover;
+}
+
+.ticker-bar {
+    background-color: var(--bg-cream);
+    color: var(--text-dark);
+    width: 100%;
+    text-align: center;
+    padding: 12px 0;
+}
+
+.ticker-bar p {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+
+/* BANNER SECTION*/
+
+/* Menu section */
+
+/* background and layout  */
+
+.menu-header {
+    background-color: #fdf8f2;
+    padding: 20px 40px;
+}
+
+/* subtitle */
+
+.subtitle {
+    font-family: 'Caveat', cursive;
+    color: #3353e2;
+    font-size: 24px;
+    display: block;
+    margin-bottom: -5px;
+}
+
+/*main heading */
+
+.main-title {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    color: #2b2b52;
+    font-size: 36px;
+    font-weight: 800;
+    margin: 0;
+    line-height: 1;
+}
+
+/*menu container*/
+
+/* MENU CONTAINER */
+
+.container {
+    max-width: 900px;
+    display: flex;
+    align-items: stretch;
+    border-radius: 24px;
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.08);
+    margin: 25px auto;
+    padding: 0;
+    background-color: var(--white);
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.container.reverse {
+    flex-direction: row-reverse;
+}
+
+.column {
+    flex: 1;
+    padding: 35px 40px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.column:first-child {
+    flex: 0 0 38%;
+    background-color: #dbe5ff;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    width: 100%;
+}
+
+.image img {
+    width: 100%;
+    border-radius: 160px 160px 20px 20px;
+    display: block;
+    object-fit: cover;
+}
+
+.badge {
+    position: absolute;
+    bottom: -10px;
+    left: -10px;
+    background-color: var(--pink);
+    color: var(--text-dark);
+    font-family: 'Caveat', cursive;
+    font-size: 22px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 1.1;
+    transform: rotate(-10deg);
+}
+
+.heading {
+    font-family: "Bricolage Grotesque", sans-serif;
+    color: var(--primary-blue);
+    font-size: 34px;
+    font-weight: 800;
+    margin: 0 0 4px 0;
+}
+
+.text {
+    font-family: "Bricolage Grotesque", sans-serif;
+    color: var(--text-dark);
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 0 4px 0;
+}
+
+.description {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: #6b7280;
+    font-size: 13px;
+    line-height: 1.4;
+    margin-top: 4px;
+    margin-bottom: 0;
+}
+
+.item-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 0;
+    border-bottom: 1px dashed #e4e4e7;
+    width: 100%;
+}
+
+.item-row>div:first-child {
+    max-width: 60%;
+}
+
+.price {
+    display: flex;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+.dozen {
+    border: 2px solid var(--primary-blue);
+    background-color: var(--white);
+    border-radius: 12px;
+    padding: 8px 12px;
+    text-align: center;
+    min-width: 75px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.dozen.active {
+    background-color: var(--primary-blue);
+    color: var(--white);
+}
+
+.dozen.active .price-label,
+.dozen.active .price-num {
+    color: var(--white);
+}
+
+.price-label {
+    display: block;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 9px;
+    font-weight: 700;
+    color: var(--primary-blue);
+}
+
+.price-num {
+    display: block;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    color: var(--text-dark);
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.btn-add-order {
+    background-color: var(--primary-blue);
+    color: var(--white);
+    border: none;
+    border-radius: 25px;
+    padding: 12px 24px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.column.image-col {
+    flex: 0 0 38%;
+    background-color: #dbe5ff;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.column.content-col {
+    flex: 1;
+    background-color: var(--white);
+    padding: 35px 40px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+/*  FOOTER */
+
+footer {
+    display: flex;
+    text-decoration: none;
+    background-color: var(--text-dark);
+    justify-content: space-around;
+    color: var(--white);
+}
+
+footer a {
+    color: var(--white);
+    text-decoration: none;
+    display: block;
+    margin-bottom: 8px;
+}
+
+footer a:hover {
+    color: var(--white);
+    text-decoration: none;
+
+}
+
+footer p {
+    color: var(--white);
+    margin: 4px 0;
+    line-height: 1.4;
+}
+
+.title {
+    line-height: normal;
+    margin: 0;
+    font-size: 40px;
+    font-family: 'Caveat', cursive;
+
+}
+
+.block1 p:last-child {
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: var(--pink);
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    margin-bottom: 12px;
+}
+
+/*  h3 font  */
+
+.space-grotesk {
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.block1 {
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+.block2 {
+    max-width: 100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.block3 {
+    max-width: 100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.block4 {
+    max-width: 100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.block5 {
+    max-width: 100px;
+    margin: 0 auto;
+    text-align: center;
+}

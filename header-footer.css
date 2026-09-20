@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Space+Grotesk:wght@300..700&display=swap');
+
+:root {
+    --bg-cream: #fdf8f2;
+    --text-dark: #2b2b52;
+    --primary-blue: #3353e2;
+    --blue-hover: #243ec4;
+    --white: #ffffff;
+    --pink: #E1A6C2;
+}
+
+body {
+    background-image: url(png/background.png);
+    margin: 0;
+    /* Removes default browser margin */
+}
+
+/* ==========================================
+   HEADER SECTION
+   ========================================== */
+
+.logo {
+    width: 100px;
+    height: 60px;
+}
+
+.h1 {
+    line-height: normal;
+    margin: 0;
+    font-size: 38px;
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    color: var(--primary-blue);
+}
+
+.header {
+    width: 100%;
+    min-height: 110px;
+    padding: 20px 40px;
+    background-color: var(--bg-cream);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 30px;
+    order: 1;
+}
+
+/* text for header menu  */
+.plus-jakarta {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: var(--text-dark);
+    font-size: 18px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 500;
+}
+
+.menu {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 1px solid var(--primary-blue);
+    background-color: #3353e2;
+    border-radius: 25px;
+    padding: 10px;
+    color: var(--bg-cream);
+}
+
+.order {
+    order: 3;
+    padding-right: 40px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    white-space: nowrap;
+    align-items: center;
+    justify-content: center;
+    font-family: "Anton", sans-serif;
+    font-size: small;
+    color: var(--blue-hover);
+}
+
+/* text for header title  la pony bakery */
+.caveat {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/* ==========================================
+   FOOTER SECTION
+   ========================================== */
+
+footer {
+    display: flex;
+    text-decoration: none;
+    background-color: var(--text-dark);
+    justify-content: space-around;
+    color: var(--white);
+}
+
+footer a {
+    color: var(--white);
+    text-decoration: none;
+    display: block;
+    margin-bottom: 8px;
+}
+
+footer a:hover {
+    color: var(--white);
+    text-decoration: none;
+}
+
+footer p {
+    color: var(--white);
+    margin: 4px 0;
+    line-height: 1.4;
+}
+
+.title {
+    line-height: normal;
+    margin: 0;
+    font-size: 40px;
+    font-family: 'Caveat', cursive;
+}
+
+.block1 p:last-child {
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: var(--pink);
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    margin-bottom: 12px;
+}
+
+/*  h3 font  */
+.space-grotesk {
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.block1 {
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+.block2 {
+    max-width: 100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.block3 {
+    max-width: 100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.block4 {
+    max-width: 100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.block5 {
+    max-width: 100px;
+    margin: 0 auto;
+    text-align: center;
+}

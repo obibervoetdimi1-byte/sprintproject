@@ -38,14 +38,7 @@ body {
     height: 260px;
     border-radius: 50%;
     object-fit: cover;
-
     float: left;
-
-    shape-outside: circle(40%);
-
-    shape-margin: 30px;
-
-
     margin: 0 15px 20px 0;
 }
 
